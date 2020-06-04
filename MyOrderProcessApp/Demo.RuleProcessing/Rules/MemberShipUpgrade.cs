@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Demo.RuleProcessing.Rules
 {
-    public class MemberShipUpgrade : BaseRule
+    public class MemberShipUpgrade : BaseBusinessRule
     {
         public MemberShipUpgrade(IDomainEntity domainEntity) : base(domainEntity)
         {
@@ -13,6 +13,8 @@ namespace Demo.RuleProcessing.Rules
 
         public override string ExecuteRule()
         {
+            //logic to upgrade memmbership using domain entity
+            this.NotifyEmail(); //send email
             return $"Upgrade {base.ProductName}";
         }
     }

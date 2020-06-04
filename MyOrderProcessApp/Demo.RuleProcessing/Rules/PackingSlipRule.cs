@@ -3,7 +3,7 @@ using System;
 
 namespace Demo.RuleProcessing.Rules
 {
-    public class PackingSlipRule:BaseRule
+    public class PackingSlipRule:BaseBusinessRule
     {
         public PackingSlipRule(IDomainEntity domainEntity):base(domainEntity)
         {
@@ -15,6 +15,7 @@ namespace Demo.RuleProcessing.Rules
         /// <returns></returns>
         public override string ExecuteRule()
         {
+            //logic to generate packiing slip
             return $"packing slip executed for {base.ProductName}";
         }
     }
