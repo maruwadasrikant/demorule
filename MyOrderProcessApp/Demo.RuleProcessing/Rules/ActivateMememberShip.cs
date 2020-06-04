@@ -14,7 +14,7 @@ namespace Demo.RuleProcessing.Rules
         {
             //Logic to activate the memmbers
             this.NotifyEmail();
-            return $"Activared {base.ProductName}";
+            return $"Activated {base.ProductName}";
         }
     }
 }

@@ -23,7 +23,7 @@ namespace Demo.RuleProcessing.Tests
             Video video= new Video();
             VideoPackingSlipRule packingSlipRule = new VideoPackingSlipRule(video);
             var result = packingSlipRule.ExecuteRule();
-            Assert.AreEqual("packing slip executed for Physical Product", result);
+            Assert.AreEqual("Video packing slip", result);
         }
 
         [TestMethod]
@@ -32,7 +32,7 @@ namespace Demo.RuleProcessing.Tests
             MemberShip memberShip= new MemberShip { User = "user1" } ;
             ActivateMememberShip  activateMemember= new ActivateMememberShip(memberShip);
             var result = activateMemember.ExecuteRule();
-            Assert.AreEqual("packing slip executed for Physical Product", result);
+            Assert.AreEqual("Activated MememberShip", result);
         }
 
         [TestMethod]
@@ -41,7 +41,7 @@ namespace Demo.RuleProcessing.Tests
             MemberShip memberShip= new MemberShip { User = "user2" };
             MemberShipUpgrade upgradeRule = new MemberShipUpgrade(memberShip);
             var result = upgradeRule.ExecuteRule();
-            Assert.AreEqual("packing slip executed for Physical Product", result);
+            Assert.AreEqual("Upgrade MememberShip", result);
         }
 
 
