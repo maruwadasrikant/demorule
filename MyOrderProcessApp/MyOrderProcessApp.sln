@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.RuleProcessing.Tests", "Demo.RuleProcessing.Tests\Demo.RuleProcessing.Tests.csproj", "{B4C5EC84-29C0-45B9-B5CD-0981464F83A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.RuleProcessing", "Demo.RuleProcessing\Demo.RuleProcessing.csproj", "{97457D2A-227A-41B8-B5EE-FC515C624EC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4C5EC84-29C0-45B9-B5CD-0981464F83A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4C5EC84-29C0-45B9-B5CD-0981464F83A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4C5EC84-29C0-45B9-B5CD-0981464F83A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4C5EC84-29C0-45B9-B5CD-0981464F83A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97457D2A-227A-41B8-B5EE-FC515C624EC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97457D2A-227A-41B8-B5EE-FC515C624EC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97457D2A-227A-41B8-B5EE-FC515C624EC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97457D2A-227A-41B8-B5EE-FC515C624EC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E2BAC64-2CDB-4DB9-A099-CFDA999AC84B}
+	EndGlobalSection
+EndGlobal
